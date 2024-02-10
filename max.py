@@ -11,10 +11,10 @@ def max(first, second):
 
 def min(first, second):
     if first > second:
-        min = first
+        min = second
     elif first < second:
         min = second
-    elif first == second:
+    elif first == first:
         min = first 
     return min
 
